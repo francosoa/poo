@@ -35,4 +35,3 @@ d.formatada()
 #O output foi como o esperado
 
 
-__pycache__ /
