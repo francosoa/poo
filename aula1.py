@@ -1,5 +1,7 @@
 #Primeira aula de Programação Orientada a Objeto
 
+#Abaixo temos um exemplo de função normal, que não é orientada a objeto
+
 def criar_conta (numero, titular, saldo, limite):
     conta = {"numero": numero, "titular": titular, "saldo":saldo, "limite":limite}
     return conta
