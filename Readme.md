@@ -42,5 +42,5 @@ Propriedades
 
 #### aula 6:
 Métodos privados;\
-Métodos da classe, os métodos estáticos
+Métodos da classe, os métodos estáticos.
 

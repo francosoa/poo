@@ -4,7 +4,7 @@ Métodos privados e estásticos:
 
 Métodos estáticos é quando a classe não precisa do objeto:
 ex: Classe.conta()
-
+.
 Para configurar o método estático precisa chamar o @staticmethod - é indicado 
 quando um objeto usa algo em comum.
 
