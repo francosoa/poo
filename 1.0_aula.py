@@ -1,4 +1,12 @@
-#Primeira aula de Programação Orientada a Objeto
+""""
+Na programação procedural, o código é colocado em funções ou procedimentos totalmente distintos, 
+já no paradigma OO os atributos e comportamentos estão contidos dentro de um único objeto, 
+ao passo que no projeto procedural ou estruturado, os atributos e comportamentos estão normalmente separados.
+
+O código abaixo conta com uma programação procedual.
+""""
+
+
 
 def criar_conta (numero, titular, saldo, limite):
     conta = {"numero": numero, "titular": titular, "saldo":saldo, "limite":limite}
