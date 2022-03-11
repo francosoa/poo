@@ -1,6 +1,6 @@
 
-###
-#  Antes de termos um objeto, devemos definir as suas características.
+#####
+#  Antes de termos um objeto, devemos definir as suas características..
 ###
 
 # Uma classe é uma especificação de um tipo, definindo valores e comportamentos.
