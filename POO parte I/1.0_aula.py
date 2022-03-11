@@ -3,7 +3,7 @@ Na programação procedural, o código é colocado em funções ou procedimentos
 já no paradigma OO os atributos e comportamentos estão contidos dentro de um único objeto, 
 ao passo que no projeto procedural ou estruturado, os atributos e comportamentos estão normalmente separados.
 
-O código abaixo conta com uma programação procedual
+O código abaixo conta com uma programação procedual.
 """"
 
 
