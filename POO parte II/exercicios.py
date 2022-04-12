@@ -1,6 +1,3 @@
-import random
-
-
 class Pessoa:
 
     def __init__(self, nome, nascimento, idade, filhos, redes_sociais):
@@ -9,26 +6,41 @@ class Pessoa:
         self.idade = idade
         self.filhos = filhos
         self.redes_sociais = redes_sociais
-        self.__seguidores = 0
+        self._seguidores = 0
 
     @property
     def seguidores (self):
-        return (self.__seguidores + 3) * (self.__seguidores + random.random())
+        return self._seguidores
 
+    def follow(self):
+        self._seguidores += 2
 
     @property
-
     def nome(self):
         return self._nome
 
     @nome.setter
-
     def nome(self, value):
-          self.__nome = value
+          self._nome = value
 
 
-nome_2 = Pessoa('francis', '09-03-1995', 27, 3, 'instagram e face')
-print(f' nome: {nome_2.nome}, nascimento: {nome_2.nascimento}, idade:{nome_2.idade}, redes_sociais: {nome_2.redes_sociais}, {nome_2.seguidores}' )
+class C(Pessoa):
+    def __init__(self, nome, rua, numero):
+        super().__init__(nome)
+        self.rua = rua
+        self.numero = numero
+
+    def __str__(self):
+        return (f'nome: {self.nome} - rua:{self.rua} - numero: {self.numero}')
+
+
+
+person = Pessoa('francisco', '09-03-1995', 27, 3, 'instagram e face')
+person.follow()
+person.follow()
+
+c = C('Francisco', 'rua comendador haroldo', 301321)
+
 
 
 

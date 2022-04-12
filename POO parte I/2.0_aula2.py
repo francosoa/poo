@@ -1,20 +1,25 @@
 
-#####
-#  Antes de termos um objeto, devemos definir as suas características..
-###
+""""
 
-# Uma classe é uma especificação de um tipo, definindo valores e comportamentos.
-#Para criar uma instância, é obrigatório preencher os valores de todos os atributos.
-#Uma boa analogia é considerar a classe como a receita para a criação de algum prato;
-# por exemplo, um delicioso bolo de cenoura ;-)
+Antes de termos um objeto, devemos definir as suas características..
 
 
-#as variáveis criadas para armanezar os objetos são chamadas de referências
+Uma classe é uma especificação de um tipo, definindo valores e comportamentos.
+Para criar uma instância, é obrigatório preencher os valores de todos os atributos.
 
-# Função construtora é quando no def tem dois __
-#O self dentro do __init__(Self) é a referência que sabe onde está o nosso objeto
+Uma boa analogia é considerar a classe como a receita para a criação de algum prato;
+por exemplo, um delicioso bolo de cenoura ;-)
 
-#As caracteristicas de uma classe são chamadas de atributos.
+""""
+
+""""
+As variáveis criadas para armanezar os objetos são chamadas de referências
+
+Função construtora é quando no def tem dois __
+O self dentro do __init__(Self) é a referência que sabe onde está o nosso objeto
+
+As caracteristicas de uma classe são chamadas de atributos.
+""""
 
 #Definir uma receita:
 
