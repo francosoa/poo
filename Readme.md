@@ -1,46 +1,26 @@
 #Programação Orientada a Objeto
 
-A POO é um paradigma de programação de forma que propriedades e comportamentos sejam agrupados em objetos individuais.
+Dentro desse repositório será encontrado o meu desenvolvimento na Programação Orientada a Objetos (POO).
+Os projetos serão atualizados de acordo com o andamento do curso, que no caso, estou realizando um curso da Alura.
 
-### Exemplo:
-Um Objeto pode representar uma propriedade como nome do titular, conta bancária, idade, e etc. Um comportamento pode ser representado por uma ação, como: sacar o dinheiro da conta bancária, aumentar o limite, fechar a conta e etc.
+As pastas são dividas em Aula I e Aula II:
 
+- Na **Aula I** fiquei dedicado em absorver os conceitos básicos de POO, como, o que é um método, uma classe, um objeto e etc;
 
-## O que aprendi durante as aulas:
+- Já na Aula II, com os conceitos bem absorvidos, consegui entender um pouco mais sobre:
 
-#### aula 1:
-Dicionário;\
-Funções;\
-Encapsulamento de código.
+Herança simples e múltipla;\
+Polimorfismo; \
+Duck Type;\
+S.O.L.I.D;\
+E etc.
 
-#### aula 2:
-Classes\
-Objetos;\
-Função construtora;\
-Endereço e referência de objetos;\
-Atributos de classe;\
-Acesso aos atributos através do objeto.
+Além dos conceitos, no **arquivo projeto_poo.py** consegui implementar sozinho alguns conceitos aprendidos no curso.
 
-#### aula 3:
-Métodos, que definem o comportamento de uma classe;\
-Criação de métodos;\
-Como chamar métodos através do objeto;\
-Acesso aos atributos através do self;\
-Garbage Collector;\
-O tipo None.
+# Próximos passos:
 
-#### aula 4:
-Atributos privados;\
-Encapsulamento de código;\
-Encapsulamento da manipulação dos atributos nos métodos;\
-Coesão do código
+Irei me apropriar deste repositório para continuar evoluindo na linguagem, com algumas metas definidas para o projeto se apresentar como completo.
 
-#### aula 5:
-Métodos de leitura dos atributos, os getters;\
-Métodos de modifição dos atributos, os setters;\
-Propriedades
-
-#### aula 6:
-Métodos privados;\
-Métodos da classe, os métodos estáticos.
+- Todos os arquivos vão atender a PEP8;
+- Será realizado tentativas de construções de projetos com usabilidade no mundo real.
 

@@ -13,13 +13,6 @@ Ex: Gostaria de aumentar o valor do limite do cliente da conta
 
 def set__limite(self, limite):
     self.__limite = limite  
-
-
-
-Propriedades:
-É utilizado o arquivo 5.1 de forma complementar
-
-
 '''''''''''
 
 class Conta:

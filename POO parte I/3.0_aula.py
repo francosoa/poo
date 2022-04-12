@@ -1,9 +1,6 @@
 #As funções dentro do mundo de objetos são chamadas de método
 #Metodo = O que a função sabe fazer
 
-#
-#
-#
 
 
 class Conta:
