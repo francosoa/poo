@@ -31,4 +31,3 @@ ball = Ball("Azul", 18, "Plástico")
 print('=' * 30)
 print(f'{ball.mostra_cor}, {ball.circuferência} and the material is {ball.mater}')
 print('=' * 30)
-

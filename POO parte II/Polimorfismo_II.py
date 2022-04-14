@@ -1,6 +1,8 @@
 """
 Utilizando a técnica de Polimorfismo - Parte II
 
+- Fazendo uma classe para criar métodos com informações de funcionários PJ e PF
+
 """
 
 
