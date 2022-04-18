@@ -3,6 +3,8 @@ Clases abstratas fornecem um modelo para classes concretas
 
 - A classe abstrata não pode ser instanciada;
 - As subclasses derivadas da classe abstrata devem possuir os métodos herdados
+
+A classe abaixo verifica os arquivos dentro de uma determinada pasta
 """
 #Criando uma classe abstrata:
 from abc import ABCMeta, abstractmethod
@@ -42,29 +44,29 @@ class GetCSVinfo(AbstractClassCSV): #herdando a minha classe abstrata
 
     @property
     def path(self):
-        print("Getting value of path")
+        print("Processando o caminho...")
         return self._path
 
     @path.setter
     def path(self, value):
         if '/' in value:
             self._path = value
-            print("Setting value of path to {}".format(value))
+            print("Consigurando o valor do caminho {}".format(value))
         else:
-            print("the value {} is incorrect".format(value))
+            print("O valor {} está incorreto".format(value))
 
     @property
     def file_name(self):
-        print("Getting value of file...")
+        print("Processando o arquivo...")
         return self._file_name
 
     @file_name.setter
     def file_name(self, value):
         if '.' in value:
             self._file_name = value
-            print("Your file name is {}".format(value))
+            print("O nome do seu arquivo é {}".format(value))
         else:
-            print("The value of your file name {} is incorrect".format(value))
+            print("O input do seu arquivo {} está incorreto".format(value))
 
     def display_summary(self):
         data = pd.read_csv(self._path + self._file_name)
